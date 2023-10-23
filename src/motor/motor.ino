@@ -1,3 +1,7 @@
+// -------------------------------------------------
+// Copyright (c) 2023 HiBit <https://www.hibit.dev>
+// -------------------------------------------------
+
 #define MOTOR_PIN 3
  
 void setup()
@@ -16,5 +20,4 @@ void loop()
   Serial.println("Turning motor OFF");
   digitalWrite(MOTOR_PIN, LOW);
   delay(3000); // Wait three seconds
- 
 }
